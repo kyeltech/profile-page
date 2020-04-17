@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800");
+
+body{
+    font-family: "Montserrat", "sans-serif";
+    font-size: 20px;
+    background-color: silver;
+}
+.container{
+    letter-spacing: 4px;
+    background-image: url(img/myseven.jpeg);
+    background-size: 96.6vh;
+    width: 96.6vh;
+    height: 96.6vh;
+    opacity: 0.5;
+   
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  li {
+    float: left;
+  
+  }
+  
+  li a {
+    display: block;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(8, 41, 63);
+    font-weight: 100px;
+    font-size: 20px bold;
+    width: 100px;
+  }
+  a:hover{
+      color: white;
+      transition: ease-in-out all 5s bold;
+      background-color: lightblue;
+      border-radius: 0 10px;
+  }
+  a.active{
+    background-color: lightblue;
+  }
+
+  .container:hover{
+      opacity: 1.0;
+      transition: ease-in-out 3s solid;
+      color: black;
+  }
+  .name{
+      position: absolute;
+      float: right;
+      background-color: rgb(61, 61, 6);
+      color: white;
+      height: 12vh;
+      width: 43vh;
+      top: 83vh;
+      left: 60vh;
+      padding: 6px;
+      margin: 6px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      opacity: unset;
+      border-radius: 0 30px 0 0;
+      
+  }
+  span{
+      width: 1px;
+      font-size: 12px;
+      font-weight: 10px;
+      font-family: monospace;
+  }
+  .about{
+      position: relative;
+      background-color: lightblue;
+      float: right;
+      left: 6.8em;
+      padding: 10% 10%;
+      margin: 10% 10%;
+      bottom: 37.5em;
+      width: 31.9%;
+      height: 23rem;
+      /* border: 5px solid black; */
+      border-radius: 10px 30%;
+  }
+  .A{
+      font-size: 100px;
+      box-shadow: 10px;
+      font-family: none;
+  }
+  .me{
+   position: relative;
+   flex: content;
+   float: left;
+   right: 40.5%;
+   bottom: 34%;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .details{
+        position: absolute;
+        display: initial;
+        width: 86%;
+        left: 1%;
+        font-size: 16px;
+  }
+strong{
+    position: relative;
+    padding: 0 70px;
+}
+strong:hover{
+    background-color: lavender;
+    transition: ease-in-out 3s solid;
+    border-radius: 0 0 0 80px;
+}
+.skills:hover{
+    background-color: black;
+    color: white;
+    padding: 0 20px;
+    transition: ease-in-out 5s solid;
+}
+.bar{
+    border: 1px solid;
+    width: 45%;
+    position: relative;
+    background:#ffffff;
+    margin-bottom:10px;
+    border-radius:4px;
+    box-shadow:0px 0px 3px ;
+}
+.bar div{
+    box-shadow:0px 0px 3px ;
+    border-radius:3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .html:before {
+    content: "85%";
+    position: absolute;
+    font-size: 11px;
+    height: 10px;
+    width: 20px;
+    left: 75%;
+    top: 2px;
+    animation: write 2.8s;
+  }
+  .css:before {
+    content: "70%";
+    position: absolute;
+    font-size: 11px;
+    height: 10px;
+    width: 20px;
+    left: 60%;
+    top: 2px;
+    animation: write 2.8s;
+  }
+  .Javascript:before {
+    content: "30%";
+    position: absolute;
+    font-size: 11px;
+    height: 10px;
+    width: 20px;
+    left: 68%;
+    top: 2px;
+    animation: write 2.8s;
+  }
+  .php:before {
+    content: "30%";
+    position: absolute;
+    font-size: 11px;
+    height: 10px;
+    width: 20px;
+    left: 75%;
+    top: 2px;
+    animation: write 2.8s;
+  }
+  .php {
+    animation: bar 2.8s;
+    height: 15px;
+    background-color: #abc;
+    width: 30%;
+  }
+  .design:before {
+    content: "30%";
+    position: absolute;
+    font-size: 11px;
+    height: 10px;
+    width: 20px;
+    left: 75%;
+    top: 2px;
+    animation: write 2.8s;
+  }
+  .design {
+    animation: bar 2.8s;
+    height: 15px;
+    background-color: #abc;
+    width: 30%;
+  }
+  .react:before {
+    content: "50%";
+    position: absolute;
+    font-size: 11px;
+    height: 10px;
+    width: 20px;
+    left: 75%;
+    top: 2px;
+    animation: write 2.8s;
+  }
+  .react {
+    animation: bar 2.8s;
+    height: 15px;
+    background-color: #abc;
+    width: 50%;
+  }
+  .html {
+    animation: bar 2.8s;
+    height: 15px;
+    background-color: #abc;
+    width: 85%;
+  }
+  .css {
+    animation: bar 2.8s;
+    height: 15px;
+    background-color: #abc;
+    width: 70%;
+  }
+  .Javascript {
+    animation: bar 2.8s;
+    height: 15px;
+    background-color: #abc;
+    width: 30%;
+  }
+  @keyframes bar{
+    0% {
+      width: 0%;
+    }
+  }
+      
+  @keyframes write {
+    0% {
+      content: "0%";
+       left:0;
+    }
+    20% {
+      content: "15%";
+       
+    }
+    40% {
+      content: "30%";
+    }
+    60% {
+      content: "45%";
+    }
+    80% {
+      content: "60%";
+    }
+    100% {
+      content: "70%";
+    }
+  }
+  footer{
+      position: relative;
+      background-color: lightblue;
+      color: black;
+      height: 15rem;
+      width: 80rem;
+      margin: 0 10px;
+      padding: 0 10px;
+      right: 20px;
+      top: 30px;
+  }
+  .pop-content {
+      position: relative;
+    display: flex;
+    height: 40%;
+    width: 20px;
+
+}
+button {
+	 /* width: 200px; */
+	/* height: auto; */
+	/* padding: 1px; */
+	background: #000;
+	font-weight: bold;
+	color: #eee;
+	text-align: center;
+	border: 0;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+} 
+.social-icons{
+    position: absolute;
+    display: inline;
+    left: 68%;
+    top: 20%;
+}
+
+.social-icons .fab {
+    font-size: 1.8em;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #FFF;
+	color: rgba(255, 255, 255, 0.8);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+    border-radius: 50%;
+}
+.fab:hover{
+    width: 60px;
+    height: 60px;
+}
+.social-icons .fa-twitter{
+    background-color:#32CCFE;
+} 
+.social-icons .fa-facebook-f{
+    background-color:rgb(15, 17, 134);
+} 
+.social-icons .fa-instagram{
+    background-color:rgb(184, 16, 175);
+} 
+.social-icons .fa-linkedin{
+    background-color:rgb(2, 14, 173);
+} 
+.social-icons .fa-gitlab{
+    background-color:rgb(0, 0, 0);
+} 
+.social-icons .fa-github{
+    background-color:rgb(10, 9, 10);
+} 
+.internet{
+    top: 70%;
+}
+.love{
+    font-size: 20px;
+    display: block;
+}
+
